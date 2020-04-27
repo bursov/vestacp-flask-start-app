@@ -16,3 +16,17 @@ rm -rf vestacp-flask-start-app
 ```
 
 That's all. Now open Vesta CP. Edit domain on page "Web" - in "Template WEB" select "wsgi_flask_nginx" and press "Save".
+
+## Upload Flask app ##
+
+Go to folder "$home_dir/$user/web/$domain/private/" (replace variables with your actual data) and upload / clone your project here.
+
+If you need to install new packages via pip, use current command
+
+```
+source venv/bin/activate; pip install -r requirements.txt; deactivate
+```
+
+Don't forget to upload valid "requirements.txt" file. 
+
+By default in virtual enviroment installed Flask and gunicorn packages (with depencies)
