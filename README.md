@@ -30,3 +30,5 @@ source venv/bin/activate; pip install -r requirements.txt; deactivate
 Don't forget to upload valid "requirements.txt" file. 
 
 By default in virtual enviroment installed Flask and gunicorn packages (with depencies)
+
+Default entry point: app.py
