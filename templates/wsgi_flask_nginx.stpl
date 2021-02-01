@@ -33,4 +33,3 @@ server {
 
     include %home%/%user%/conf/web/snginx.%domain%.conf*;
 }
-

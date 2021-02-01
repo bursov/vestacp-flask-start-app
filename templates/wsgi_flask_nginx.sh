@@ -12,7 +12,6 @@ git clone https://github.com/bursov/vestacp-flask-start-app $tmpdir
 source venv/bin/activate
 
 pip install -r $tmpdir/requirements.txt
-# pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
 
 deactivate
 
