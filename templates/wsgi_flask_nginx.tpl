@@ -9,7 +9,7 @@ server {
 
     location ^~ /static/  {
         include  /etc/nginx/mime.types;
-        root %home%/%user%/web/%domain%/private/app/;
+        root %docroot%/;
     }
 
     location /error/ {
